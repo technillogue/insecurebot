@@ -8,9 +8,10 @@ processes = []
 
 [env]
   AUTOSAVE = 1
-  BOT_NUMBER = "+12692462089"
+  BOT_NUMBER = "+14244519005"
+  # BOT_NUMBER = "+12692462089"
   DOWNLOAD = 1
-  SIGNAL = "auxin-cli"
+  SIGNAL = "signal-cli"
 
 [experimental]
   allowed_public_ports = []

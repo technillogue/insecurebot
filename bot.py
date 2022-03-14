@@ -1,6 +1,10 @@
+import ast
 import asyncio
+import sys
+import traceback
+from typing import Any, Optional
 from forest import core
-from forest.core import Bot, Message, Response, run_bot, rpc
+from forest.core import Bot, Message, Response, rpc, run_bot
 
 
 def is_admin(_: Message) -> bool:
